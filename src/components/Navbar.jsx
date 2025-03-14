@@ -12,7 +12,7 @@ const Navbar = () => {
 
 
   const handleClick = () => {
-    window.location.href = 'https://stepcare.tech'; // Replace with your domain
+    window.location.href = 'https://stepcare.tech/login'; // Replace with your domain
   }
 
   return (

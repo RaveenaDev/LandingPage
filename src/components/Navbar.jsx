@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import stepcareLogo from '../assets/stepcarelogo.png'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +22,7 @@ const Navbar = () => {
       <div className='mt-4 ml-[-24px]'>
       <img
         style={{ width: "90px", height: "90px" }}
-        src="/src/assets/stepcarelogo.png"
+        src={stepcareLogo} alt="Logo"
       />
       </div>
 
